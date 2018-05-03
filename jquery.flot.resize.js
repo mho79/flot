@@ -192,7 +192,7 @@ can just fix the size of their placeholders.
   function loopy() {
     
     // Start the polling loop, asynchronously.
-    timeout_id = window[ str_setTimeout ](function(){
+    timeout_id = setTimeout(function(){
       
       // Iterate over all elements to which the 'resize' event is bound.
       elems.each(function(){
